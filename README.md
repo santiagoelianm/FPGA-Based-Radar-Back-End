@@ -42,12 +42,12 @@ The stages of signal generation are verified digitally through experimental test
 
 ## Repository layout
 
-The project hierarchy and folders description is as follows
+The project hierarchy is as follows
 
 ```
 radar.lvproj
-├─ Project Documentation/
 ├─ Support Files/
+│  ├─ Bitfiles/
 │  ├─ Device Configuration/
 │  ├─ FPGA VIs/
 │  ├─ RX Stream/
@@ -65,7 +65,7 @@ radar.lvproj
 │  ├─ IP Builder/
 │  ├─ Dependencies/
 │  ├─ Build Specifications/
-│  └─ RADAR (FPGA).vi
+│  └─ RADAR (NI 5791 FPGA).vi
 ├─ Dependencies/
 ├─ Build Specifications/
 ```
