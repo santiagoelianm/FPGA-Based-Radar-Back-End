@@ -125,7 +125,7 @@ radar.lvproj
 
 When a run is executed the project automatically creates a `project%/data/YYYY-MM-DD/` folder and writes four files per run. File names and fields follow this convention:
 
-1. **`settings_YYYY-MM-DD_HHMM.lvm`**
+1. **`settings_YYYY-MM-DD_hhmm.lvm`**
    - Contains the test parameters (human-readable LabVIEW Measurement file). Typical fields saved:
      - `p_type` (waveform type)
      - `oversampling_factor`
@@ -140,13 +140,13 @@ When a run is executed the project automatically creates a `project%/data/YYYY-M
      - `pulseRangeCell` (range cells samples per pulse)
      - `guard_us` (guard width in microseconds)
 
-2. **`rxIQ__YYYY-MM-DD_HHMM_runid.lvm`**
+2. **`rxIQ__YYYY-MM-DD_hhmm_runid.lvm`**
    - Conditioned Rx IQ samples captured directly from the RF front-end at **130 MHz** sample rate (as delivered by the conditioning chain). `runid` is a sequential run number.
 
-3. **`pulseIQ__YYYY-MM-DD_HHMM_runid.lvm`**
+3. **`pulseIQ__YYYY-MM-DD_hhmm_runid.lvm`**
    - Conditioned Tx IQ samples (transmit waveform recorded / generated) at **130 MHz**.
 
-4. **`dataIQ__YYYY-MM-DD_HHMM_runid.lvm`**
+4. **`dataIQ__YYYY-MM-DD_hhmm_runid.lvm`**
    - Cross-correlation output IQ samples (correlator bank output) sampled at `freqSamp` Hz (see `settings_*` for the exact `freqSamp`).
 
 > All `.lvm` files are standard LabVIEW Measurement files (ASCII text with headers). Use LabVIEW or a simple parser (MATLAB/Python) to import them for post-processing.
