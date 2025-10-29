@@ -1,7 +1,7 @@
 # Development of FPGA-Based Radar Back-End
 
 
-This repository contains the LabVIEW FPGA implementation developed for the paper **"Development of FPGA-Based Radar Back-End"** published in IEEE Latin America Transactions.
+This repository contains the LabVIEW FPGA implementation developed for the paper **"Development of FPGA-Based Radar Back-End"** published in IEEE Latin America Transactions with Submission ID: 10102.
 
 ---
 
