@@ -37,7 +37,7 @@ The stages of signal generation are verified digitally through experimental test
 ## Paper citation
 
 
-> Mallerman, S. E., Pascual, J. P., and  Cogo, J., "Development of FPGA-Based Radar Back-End," *IEEE Latin America Transactions*, Year. DOI: `xxx`
+> Mallerman, S. E., Pascual, J. P., and  Cogo, J., "Development of FPGA-Based Radar Back-End," *IEEE Latin America Transactions*, Year. DOI: 10.1109/TLA.2026.11334046
 
 
 ## Repository layout
